@@ -1,0 +1,812 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    top: 0px;
+    position: static;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2)), url(/images/buenosaires.jpg);
+    /*
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+
+    min-width: 20vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-image .hero-text {
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1 {
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.hero-btn {
+    margin: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hero-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/*aaa*/
+
+
+
+div.parallax {
+    margin: 30px;
+    border-radius: 10px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+.parallax_container {
+    text-align: center;
+}
+
+.parallax_container h1 {
+    font-weight: 500;
+}
+
+.facts {
+    font-size: x-large;
+}
+
+.factsText {
+    font-size: large;
+    margin: 30px;
+}
+
+.image1 {
+    background-image: url("images/SanNicolas.jpeg");
+}
+
+.image2 {
+    background-image: url("images/buenos2.jpg");
+}
+
+.image3 {
+    background-image: url("images/buenos\ aires.avif");
+}
+
+.image4 {
+    background-image: url("images/buenos2.jpg");
+}
+
+.parallax {
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+b {
+    color: dodgerblue;
+}
+
+
+/* VIDEO */
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    justify-content: center;
+}
+
+.container_footer {
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-size: large;
+}
+
+
+
+/* MENU */
+nav {
+    opacity: 0.8;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+nav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Animations */
+
+#animations-menu {
+    background-color: rgb(222, 246, 255);
+    color: #456869;
+}
+
+
+#animations-menu a {
+    color: #456869;
+}
+
+#animations-menu .dropdown {
+    color: #456869;
+}
+
+#animations-menu .dropbtn {
+    color: #456869;
+}
+
+.animations {
+    text-align: center;
+    background-color: rgb(222, 246, 255);
+}
+
+.animations p {
+    font-weight: 600;
+}
+
+.animations h1 {
+    color: #456869;
+}
+
+.logo {
+    display: inline-block;
+    margin: 20px;
+    height: 65px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.logo.rotate {
+    transition: transform 1.5s ease-in-out;
+}
+
+.logo.rotate:hover {
+    transform: rotate(360deg);
+}
+
+/* Keyframes */
+
+.logo-keyframe {
+    position: relative;
+    height: 50px;
+    animation-name: boxAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxAnimation {
+    0% {
+        left: -200px;
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.5;
+    }
+
+    50% {
+        left: 200px;
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        left: -200px;
+        opacity: 1;
+    }
+}
+
+/* SVG */
+
+#my-svg {
+    width: 100px;
+    height: 100px;
+}
+
+#rect {
+    fill: #3c78e7;
+    animation: rectAnimation 2s infinite;
+    transform-origin: center;
+}
+
+#circle {
+    fill: #f10ff1;
+}
+
+#triangle {
+    fill: #2eccc4;
+    position: relative;
+    height: 50px;
+    animation-name: triangleAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rectAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes triangleAnimation {
+    0% {
+        transform: scale(2, 3);
+    }
+
+    50% {
+        transform: translate(20px);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+/* Poema */
+
+.poem {
+    background-color: rgb(222, 246, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poem h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.quadra {
+    min-width: 420px;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.quadra:hover {
+    background-color: #f9f9f9c5;
+}
+
+.line1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.line2 {
+    font-style: italic;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+
+.line3 {
+    font-size: small;
+}
+
+.line4 {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.line4:hover {
+    font-size: 1.2rem;
+    color: #000000;
+    opacity: 1;
+}
+
+/* Responsivo */
+
+/* HOME */
+
+@media screen and (max-width: 600px) {
+    .hero-image {
+        top: 0px;
+        position: static;
+        background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2)), url(/images/buenosaires.jpg);
+        /*
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        */
+
+        min-width: 20vw;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-image .hero-text {
+        color: #fff;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        margin-top: 225px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .hero-text p {
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .hero-btn {
+        margin-top: 30px;
+        text-decoration: none;
+        color: #fff;
+        background-color: black;
+        padding: 10px 30px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .hero-btn:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    /* Parallax */
+
+
+
+    div.parallax {
+        margin: 30px;
+        border-radius: 10px;
+    }
+
+    header>h1 {
+        text-align: center;
+    }
+
+    .parallax_container {
+        text-align: center;
+    }
+
+    .parallax_container h1 {
+        font-weight: 500;
+    }
+
+    .facts {
+        font-size: x-large;
+    }
+
+    .factsText {
+        font-size: large;
+        margin: 30px;
+    }
+
+    .image1 {
+        background-image: url("images/SanNicolas.jpeg");
+    }
+
+    .image2 {
+        background-image: url("images/buenos2.jpg");
+    }
+
+    .image3 {
+        background-image: url("images/buenos\ aires.avif");
+    }
+
+    .image4 {
+        background-image: url("images/buenos2.jpg");
+    }
+
+    .parallax {
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    b {
+        color: dodgerblue;
+    }
+
+    /* VIDEO */
+
+    #myVideo {
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #myBtn:hover {
+        background: #ddd;
+        color: black;
+    }
+
+    .content {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container_footer {
+        background-color: #000;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: large;
+    }
+
+    /* Animations */
+
+    #animations-menu {
+        background-color: rgb(222, 246, 255);
+        color: #456869;
+    }
+
+
+    #animations-menu a {
+        color: #456869;
+    }
+
+    #animations-menu .dropdown {
+        color: #456869;
+    }
+
+    #animations-menu .dropbtn {
+        color: #456869;
+    }
+
+    .animations {
+        text-align: center;
+        background-color: rgb(222, 246, 255);
+    }
+
+    .animations p {
+        font-weight: 600;
+    }
+
+    .animations h1 {
+        color: #456869;
+    }
+
+    .logo {
+        display: inline-block;
+        margin: 20px;
+        height: 65px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .logo:hover {
+        transform: scale(1.2);
+    }
+
+    .logo.rotate {
+        transition: transform 1.5s ease-in-out;
+    }
+
+    .logo.rotate:hover {
+        transform: rotate(360deg);
+    }
+
+    /* Keyframes */
+
+    .logo-keyframe {
+        position: relative;
+        height: 50px;
+        animation-name: boxAnimation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes boxAnimation {
+        0% {
+            left: -200px;
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 0.5;
+        }
+
+        50% {
+            left: 200px;
+            opacity: 1;
+        }
+
+        75% {
+            opacity: 0.5;
+        }
+
+        100% {
+            left: -200px;
+            opacity: 1;
+        }
+    }
+
+    /* SVG */
+
+    #my-svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    #rect {
+        fill: #3c78e7;
+        animation: rectAnimation 2s infinite;
+        transform-origin: center;
+    }
+
+    #circle {
+        fill: #f10ff1;
+    }
+
+    #triangle {
+        fill: #2eccc4;
+        position: relative;
+        height: 50px;
+        animation-name: triangleAnimation;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes rectAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        25% {
+            opacity: 0.25;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        75% {
+            opacity: 0.75;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes triangleAnimation {
+        0% {
+            transform: scale(2, 3);
+        }
+
+        50% {
+            transform: translate(20px);
+        }
+
+        100% {
+            transform: scale(1.5);
+        }
+    }
+
+
+    /* Poema */
+
+    .poem {
+        background-color: rgb(222, 246, 255);
+        display: flex;
+        font-size: small;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .poem h1 {
+        padding: 20px;
+        text-align: center;
+        font-size: medium;
+        align-items: center;
+    }
+
+    .quadra {
+        min-width: 300px;
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .quadra:hover {
+        background-color: #f9f9f9c5;
+    }
+
+    .line1 {
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .line2 {
+        font-style: italic;
+        text-transform: lowercase;
+        font-weight: 100;
+    }
+
+    .line3 {
+        font-size: small;
+    }
+
+    .line4 {
+        color: #000000;
+        opacity: 0.3;
+    }
+
+    .line4:hover {
+        font-size: 1.2rem;
+        color: #000000;
+        opacity: 1;
+    }
+
+
+}
